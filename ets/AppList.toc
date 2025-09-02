@@ -1,0 +1,15 @@
+;///////////////////////////////////////////////////////////////////////
+;//                                                                   //
+;//  This file contains a list of ETS projects on the current drive.  //
+;//                                                                   //
+;//      !!!!    DO NOT MODIFY THE CONTENTS OF THIS FILE    !!!!      //
+;//                                                                   //
+;///////////////////////////////////////////////////////////////////////
+[TOC Information]
+Version=2.00
+[Lab1_CCitronRHendricks.ENG]
+FAMILY_NAME=Eagle
+SUBFAM_NAME=Resistor
+CONFIG_ROOT=Lab1_CCitronRHendricks
+CONFIG_DIR=E:\ETS\APPS\Lab1_CCitronRHendricks\
+ETS_PROJ_ID=caf8620d-7b4b-42b6-80ec-e8344246c602

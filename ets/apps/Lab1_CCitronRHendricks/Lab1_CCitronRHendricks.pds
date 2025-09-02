@@ -1,0 +1,56 @@
+
+
+
+
+
+
+[LabelUserTest]
+Function=NO ASSOCIATION
+"",,,"",,,,"","",""
+[Datasheet Preferences]
+Column Formatting=CCCCCCCCCCC
+Column Widths=150,60,200,200,200,200,200,200,200,200,200,
+Fixed Columns=2
+Fixed Rows=3
+Vert Split=300
+Horz Split=300
+Show All Test Labels=1
+[Documentation Block]
+DATA SHEET=Lab1_CCitronRHendricks.pds
+PRODUCT=Lab1_CCitronRHendricks
+REVISION=1.00
+ORIG. DATE=08/29/2025
+User Flag 1=
+User Flag 2=
+User Flag 3=
+User Flag 4=
+Comment=
+[Binning Block]
+1,1,"P","Pass"
+2,2,"A","Alarm"
+3,3,"F","Resistance Low"
+4,4,"F","Resistance High"
+[Datasheet Variable Map]
+"integer","TestNmbr","Test Number"
+"integer","SubTestNmbr","Subtest Number"
+"character","DLogDesc","Datalog Description"
+"double","LoLim","Low Limit"
+"double","HiLim","High Limit"
+"double","DFormat","Data Format"
+"character","Units","Units"
+"character","LoFBin","Low Fail Bin"
+"character","HiFBin","High Fail Bin"
+[forceVoltage]
+Function=forceVoltage
+"",1,1,"Voltage",4.75,5.25,8.3,"V","4","3"
+"",1,2,"Current",4.75,5.25,8.3,"mA","4","3"
+"",1,3,"Resistance",950,1050,8.3,"Ohm","3","4"
+[forceCurrent]
+Function=forceCurrent
+"",2,1,"Voltage",4.75,5.25,8.3,"V","4","3"
+"",2,2,"Current",4.75,5.25,8.3,"mA","4","3"
+"",2,3,"Resistance",950,1050,8.3,"Ohm","3","4"
+[Test Order]
+forceVoltage=1,""
+forceCurrent=1,""
+LabelUserTest=0,""
